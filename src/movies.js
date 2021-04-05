@@ -57,8 +57,13 @@ function orderAlphabetically(arr) {
 		
 	})
 	console.log(newArr)
-	newArr.slice(0,20).forEach
 
+	let firstTwenty = newArr.slice(0,20).map((a  )=>{
+		console.log(a)
+		return a.title
+		
+	})
+	return	firstTwenty;
 }
 
 // BONUS - Iteration 7: Time Format - Turn duration of the movies from hours to minutes
